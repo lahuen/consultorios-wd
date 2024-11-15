@@ -1,3 +1,5 @@
+@import '_content/Blazor.Bootstrap/Blazor.Bootstrap.bundle.scp.css';
+
 /* /Layout/MainLayout.razor.rz.scp.css */
 .page[b-ythq7boi42] {
     position: relative;
@@ -74,6 +76,9 @@ main[b-ythq7boi42] {
     .top-row[b-ythq7boi42], article[b-ythq7boi42] {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
+    }
+    .mi-tabla-contenedor[b-ythq7boi42] {
+        overflow-x: auto; /* Permite el desplazamiento horizontal si es necesario */
     }
 }
 /* /Layout/NavMenu.razor.rz.scp.css */
@@ -159,4 +164,7 @@ main[b-ythq7boi42] {
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
     }
+
+
+
 }

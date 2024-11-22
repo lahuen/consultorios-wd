@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Consultorios.PortalWeb",
   "resources": {
-    "hash": "sha256-U48ByF3gnL31wXXAGo7wRkzb+8wWr+Xfj6/e29XZ5VI=",
+    "hash": "sha256-CHj09LSCc7t51nZDED98SMD2PJnBIS3Tx0GW9bLs1No=",
     "jsModuleNative": {
       "dotnet.native.8.0.10.cfo21chu8s.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
     },
@@ -18,10 +18,10 @@
     },
     "assembly": {
       "BlazorBootstrap.wasm": "sha256-KvMCw6Z4ECWlPEz4jeQ0QWRGeVqaYlz5Xty6Qz3MwDc=",
-      "Consultorios.PortalWeb.wasm": "sha256-WcbrGCTq6jaGLRa/FU7w6tYw49xDYGamZKuBuSXniYk=",
+      "Consultorios.PortalWeb.wasm": "sha256-AHJAc18j5pkltH7KFwJOmBGbU+TH3zU4LRcI47nfFoU=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-8MijeNVP5+CpIw0SGpbSdAeR6JilljLhCFA+hRJfR80=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-eje/xziZhG0hLPdDHxnIJD081NqRYYH9xVJ0P2Y7ppo=",
-      "Microsoft.AspNetCore.Components.Web.wasm": "sha256-3VP+Okx3SJK7Nk/lkRd9NfHfhhX/X1VAPAd+KNjKOvY=",
+      "Microsoft.AspNetCore.Components.Web.wasm": "sha256-d3ODYMu+4nfGaMLXePzdCtOn8Oomgdu3pWhIKf11p0w=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-xv2ECEk2u1N2vqTLpTWl7i8Dv0bhha0LZFctoE33ohc=",
       "Microsoft.CSharp.wasm": "sha256-JYnerL2w2vDSiCcxqB4eQA13Nkmu4hbgccePu4M3Wd0=",
       "Microsoft.Extensions.Configuration.Abstractions.wasm": "sha256-aonDziYzONmpEh0N0GIlyHEEjwyWm7Dbxa07GkrbsUM=",

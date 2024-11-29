@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Consultorios.PortalWeb</title>
-    <base href="/consultorios-wd" />
+    <base href="/consultorios-wd/" />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
@@ -36,6 +36,25 @@
     <!-- Enlace a Inputmask CDN -->
     <!--<script src="https://cdn.jsdelivr.net/npm/inputmask@5.0.7/dist/inputmask.min.js"></script>-->
     <script src="https://cdn.jsdelivr.net/npm/inputmask@5.0.7/dist/inputmask.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <script>
+        function generatePDF(tableHtml) {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+
+            // Añadir el contenido de la tabla o del HTML a convertir en el PDF
+            doc.html(tableHtml, {
+                callback: function (doc) {
+                    doc.save('documento.pdf'); // Nombre del archivo PDF que se descargará
+                },
+                x: 10,
+                y: 10
+            });
+        }
+    </script>
+
 
     <script>
         // Función para aplicar la máscara de fecha
